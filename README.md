@@ -99,8 +99,8 @@ Relationships were created using **Primary Keys** and **Foreign Keys** with One-
 
 ### Time Analysis
 
-- Sales Trend by Year
-- Compare Sales between any two selected periods
+- Annual Sales Trend Analysis
+- Custom Time Period Comparison
 
 ### Promotion Analysis
 
@@ -156,6 +156,70 @@ A detailed transaction table with dynamic filtering using Date, Customer, Produc
 The project follows a **Star Schema** consisting of one Fact Table, multiple Dimension Tables, dedicated Measures Table, and two Date Tables (one active and one inactive relationship).
 
 ![Data Model](Dashboard%20Screenshots/05_Data_Model.png)
+
+---
+
+## 📈 Key Business Insights
+
+Based on the dashboard analysis, the following business insights were identified:
+
+### Product Performance
+
+- Apple iPhone 14 emerged as the highest revenue-generating product with approximately **21.4M** in sales and also ranked first in overall profit.
+- Apple MacBook Air and Sony Bravia 55" TV were also among the top-performing products, indicating strong demand for premium electronics.
+- Products such as **Tupperware Lunch Box**, **L'Oreal Shampoo**, and **Colgate Toothpaste** generated the lowest sales and profit, suggesting opportunities to review pricing, promotions, or inventory strategy.
+
+---
+
+### Sales & Profit Analysis
+
+- The scatter plot shows a strong positive relationship between **Net Sales** and **Profit**, indicating that higher sales generally resulted in higher profitability across transactions.
+- No major outliers were observed, suggesting relatively consistent profit margins throughout the dataset.
+
+---
+
+### Promotion Analysis
+
+- **Weekend Flash Sale** offered the highest average discount, followed by **Clearance Sale**.
+- **Festive Diwali** promotions showed little or no discount activity in the available dataset, which may indicate limited campaign usage or missing promotional transactions.
+
+---
+
+### Time Trend Analysis
+
+- Annual sales remained relatively stable between **2020** and **2023**, fluctuating between **29M** and **32M**.
+- The 2024 value appears significantly lower because the available dataset may contain only partial-year records rather than a complete year's sales.
+
+---
+
+### Geographic Analysis
+
+- Sales transactions were distributed across multiple major Indian cities, indicating a geographically diversified customer base.
+- Cities with larger map markers contributed higher sales volumes and may represent key regional markets for future business growth.
+
+---
+
+### Comparative Analysis
+
+- The dashboard enables users to compare **Sales**, **Profit**, and **Quantity Sold** between any two custom date ranges using independent date slicers.
+- This functionality helps identify seasonal trends and evaluate business performance across different periods.
+
+---
+
+### Operational Insights
+
+- The interactive transaction table allows users to drill down into individual sales records using filters for Date, Customer, Product, and Promotion.
+- Dynamic slicers ensure that only relevant filter values are displayed, improving user experience and preventing empty selections.
+
+---
+
+## 💼 Business Recommendations
+
+- Increase inventory availability for high-performing products such as Apple iPhone 14 and Apple MacBook Air to avoid stock shortages.
+- Re-evaluate pricing and promotional strategies for consistently low-performing products.
+- Analyze the effectiveness of high-discount campaigns to ensure that increased discounts are translating into higher profitability.
+- Focus marketing efforts on cities contributing the highest sales while exploring opportunities in lower-performing regions.
+- Use the time-period comparison dashboard to monitor seasonal demand and optimize future promotional campaigns.
 
 ---
 
