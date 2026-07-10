@@ -25,6 +25,18 @@ The dashboard allows users to:
 
 ---
 
+## ⭐ Repository Highlights
+
+- End-to-end Power BI project
+- Power Query for ETL
+- Star Schema data model
+- Interactive DAX measures
+- Dynamic time-period comparison
+- Comprehensive project documentation
+- Git version control
+
+---
+
 ## 🛠️ Tech Stack
 
 - Power BI Desktop
@@ -37,12 +49,19 @@ The dashboard allows users to:
 
 ## 📂 Dataset
 
-The project uses a retail sales dataset containing:
+## 📂 Dataset
 
-- Customer Information
-- Product Information
-- Promotion Details
-- Sales Transactions
+The project uses a retail sales dataset containing transactional information related to customers, products, promotions, and sales.
+
+The dataset was provided as part of the Power BI module in **Krish Naik's Complete Data Analyst Bootcamp** and is used here for educational and portfolio purposes.
+
+---
+
+## 📚 Learning Source
+
+This project was completed as part of my learning journey through **Krish Naik's _Complete Data Analyst Bootcamp: Basics to Advanced_** on Udemy.
+
+The dataset and guided workflow were provided in the course. I independently implemented the complete dashboard, documented the project, and focused on understanding concepts such as Power Query, Star Schema, DAX, relationships, and interactive dashboard design.
 
 ---
 
@@ -208,13 +227,13 @@ PowerBI-Sales-Analytics
 
 ---
 
-# 🚀 Future Improvements
+## 🚀 Future Improvements
 
-- Publish the dashboard to Power BI Service.
-- Add Row-Level Security (RLS).
-- Implement advanced KPI indicators.
-- Add forecasting for future sales.
-- Improve dashboard theme and UI.
+- Deploy the report using Power BI Service.
+- Implement Row-Level Security (RLS) for role-based access.
+- Add advanced KPI indicators and dynamic tooltips.
+- Incorporate forecasting and time-series analytics.
+- Enhance the dashboard UI for executive reporting.
 
 ---
 
@@ -222,7 +241,7 @@ PowerBI-Sales-Analytics
 
 **Aditya Badaria**
 
-B.Tech Computer Science Engineering  
+B.Tech, Computer Science Engineering  
 Punjab Engineering College (PEC), Chandigarh
 
-If you found this project helpful, feel free to ⭐ this repository.
+📧 Feel free to connect for feedback, collaboration, or discussions on Data Analytics and Business Intelligence.
